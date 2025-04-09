@@ -12,12 +12,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Table(name = "event") //Diz que aqui vai existir uma tabela e mapeia.
-@Entity //Entradas da minha tabela como objetos.
+@Table(name = "event")
+@Entity 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class Event {
 
     @Id

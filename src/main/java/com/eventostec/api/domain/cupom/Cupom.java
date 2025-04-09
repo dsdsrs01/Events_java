@@ -3,7 +3,7 @@ package com.eventostec.api.domain.cupom;
 import java.sql.Date;
 import java.util.UUID;
 
-import org.yaml.snakeyaml.events.Event;
+import com.eventostec.api.domain.event.Event;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
